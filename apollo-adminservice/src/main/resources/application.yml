@@ -2,14 +2,14 @@ spring:
   application:
     name: apollo-adminservice
   profiles:
-    active: ${apollo_profile}
+    active: github
 
 ctrip:
   appid: 100003172
   
 server:
-  port: 8090
+  port: 10020
   
-logging:
-  path: /opt/logs/100003172
-  file: ${logging.path}/apollo-adminservice.log
+#logging:
+#  path: /opt/logs/100003172
+#  file: ${logging.path}/apollo-adminservice.log

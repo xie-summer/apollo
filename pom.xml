@@ -90,6 +90,7 @@
 		<!-- for travis usage -->
 		<github.global.server>github</github.global.server>
 		<github.global.oauth2Token>${env.GITHUB_OAUTH_TOKEN}</github.global.oauth2Token>
+		<jasypt.version>2.1.0</jasypt.version>
 	</properties>
 
 	<modules>
@@ -155,6 +156,12 @@
 				<version>${project.version}</version>
 			</dependency>
 			<!-- ctrip internal dependencies, only used when ctrip profiles are enabled -->
+			<!--配置属性加密工具-->
+			<dependency>
+				<groupId>com.github.ulisesbocchio</groupId>
+				<artifactId>jasypt-spring-boot-starter</artifactId>
+				<version>${jasypt.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>com.dianping.cat</groupId>
 				<artifactId>cat-client</artifactId>
