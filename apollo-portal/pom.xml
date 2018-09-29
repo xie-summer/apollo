@@ -14,6 +14,12 @@
 		<github.path>${project.artifactId}</github.path>
 	</properties>
 	<dependencies>
+		<!--外部框架 start-->
+		<dependency>
+			<groupId>com.springframework</groupId>
+			<artifactId>framework-swgger</artifactId>
+		</dependency>
+		<!--外部框架 end-->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-ldap</artifactId>

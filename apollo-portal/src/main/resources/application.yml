@@ -1,11 +1,11 @@
-apollo_profile: github,auth,ctrip
 spring:
   application:
     name: apollo-portal
-  profiles:
-    active: ${apollo_profile}
   resources:
     cache-period: 3600
+  profiles:
+#    include: ctrip
+    active: github
 
 server:
   port: 10030

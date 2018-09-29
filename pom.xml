@@ -110,6 +110,13 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<!--外部框架 start-->
+			<dependency>
+				<groupId>com.springframework</groupId>
+				<artifactId>framework-swgger</artifactId>
+				<version>1.0.0-RELEASE</version>
+			</dependency>
+			<!-- 外部框架 end-->
 			<dependency>
 				<groupId>com.ctrip.framework.apollo</groupId>
 				<artifactId>apollo-core</artifactId>

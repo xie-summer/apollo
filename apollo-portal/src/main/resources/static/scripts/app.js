@@ -32,6 +32,8 @@ var release_history_module = angular.module('release_history', ['app.service', '
 var open_manage_module = angular.module('open_manage', ['app.service', 'apollo.directive', 'app.util', 'toastr', 'angular-loading-bar']);
 //user
 var user_module = angular.module('user', ['apollo.directive', 'toastr', 'app.service', 'app.util', 'angular-loading-bar', 'valdr']);
+//organization
+var organization_module = angular.module('organization', ['apollo.directive', 'toastr', 'app.service', 'app.util', 'angular-loading-bar', 'valdr']);
 //login
 var login_module = angular.module('login', ['toastr', 'app.util']);
 //delete app cluster namespace
