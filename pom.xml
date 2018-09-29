@@ -90,7 +90,7 @@
 		<!-- for travis usage -->
 		<github.global.server>github</github.global.server>
 		<github.global.oauth2Token>${env.GITHUB_OAUTH_TOKEN}</github.global.oauth2Token>
-		<jasypt.version>2.1.0</jasypt.version>
+		<jasypt.version>1.1.8</jasypt.version>
 	</properties>
 
 	<modules>
